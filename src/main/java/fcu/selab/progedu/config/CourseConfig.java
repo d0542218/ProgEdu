@@ -8,7 +8,7 @@ import fcu.selab.progedu.exception.LoadConfigFailureException;
 
 public class CourseConfig {
   private static final String PROPERTY_FILE = "/config/course_config.properties";
-  private static CourseConfig instance = new CourseConfig();
+  //private static CourseConfig instance = new CourseConfig();
   private static final String EXCEPTION = "Unable to get config of COURSE"
       + " connection string from file;";
 
